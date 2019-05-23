@@ -1,0 +1,37 @@
+.section {
+    $main-height: 315px;
+    .item-img {
+        height: $main-height;
+        position: relative;
+    }
+    .item-tag {
+        line-height: 2.5;
+        position: absolute;
+        top: 0;
+        left: 20px;
+        letter-spacing: 5px;
+    } 
+    .item-love-icon {
+        position: absolute;
+        top: 20px;
+        right: 22px;
+    }
+    .item-body {
+        border: 1px solid $molsgrass-200;
+        .item-name , .item-price{
+            font-size: $font-size-lg;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .item-name {
+            border-right: 1px solid $molsgrass-200;
+        }
+    }
+    
+    .foot-name {
+        font-size: 24px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+        
+}

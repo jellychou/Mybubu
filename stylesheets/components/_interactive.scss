@@ -1,0 +1,14 @@
+.love-display {
+    cursor: pointer;
+    .love-show, .love-checkbox {
+        display: none;
+    }
+    .love-checkbox:checked {
+        & ~ .love-show {
+            display: block;
+        }
+        & ~ .love-hidden {
+            display: none;
+        }
+    }
+}

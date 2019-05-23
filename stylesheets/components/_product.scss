@@ -1,0 +1,75 @@
+.product {
+    .progress-line {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 50%;
+            height: 0.5px;
+            background-color: gray;
+        }
+    }
+    .circle {
+        position: relative;
+        height: 20px;
+        width: 20px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        z-index: 1;
+        background-color: rgb(75, 73, 73);
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            background-color: #8DA291;
+        }
+    }
+    .circle.active {
+       position: relative;
+        &:after {
+            content: "";
+            position: absolute;
+            background-color:  #FFE180;
+            top: 0;
+            bottom: 0;
+            border: 2px solid rgb(75, 73, 73);
+            border-radius: 50%;
+            display: block;
+            height: 18px;
+            width: 18px;
+        }
+       
+    }
+     .complete {
+        background-color: #FFE180;
+        .check-icon {
+            color: gray;
+        }
+    }
+}
+
+.invoice {
+    border: 1px solid #fff;
+}
+
+.checkout-bg {
+    background-image: url('https://images.unsplash.com/photo-1514053514818-a89e7ce304e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+    height: 496px;
+}
+
+.border-white {
+    border: 1px solid #fff;
+}
+
+.progress-margin {
+    margin-top: 150px;
+}

@@ -1,0 +1,16 @@
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../helpers/variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+@import "../components/header";
+@import "../components/section";
+@import "../components/card";
+@import "../components/log";
+@import "../components/footer";
+@import "../components/carts";
+@import "../components/product";
+@import "../components/interactive";
+
+@import "../components/utilities";

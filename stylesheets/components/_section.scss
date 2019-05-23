@@ -1,0 +1,17 @@
+.section {
+    .vertical-block {
+        @include media-breakpoint-up(md) {
+            margin-top: -50px;
+            margin-bottom: -20px;
+        }
+    }
+     .vertical-content {
+        max-height: 420px;
+        line-height: 42px;        
+    }
+
+    .section-intro-img {
+        min-height: 250px;
+    }
+    
+}
